@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+{{ partial "head.html" . }}
+
+<body class="{{ if .IsHome }}home{{ end }}">
+
+  <div class="pagina">
+
+    {{ partial "cabecalho.html" . }}
+
+    {{ block "main" . }}
+    {{ end }}
+  </div>
+
+  {{ partial "rodape.html" }}
+
+</body>
+</html>

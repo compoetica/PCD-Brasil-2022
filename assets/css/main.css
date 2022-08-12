@@ -1,0 +1,55 @@
+/* Fontes
+--------------------------------------*/
+
+@font-face {
+  font-family: 'Sora-Medium';
+  src: url('../fonts/Sora-Medium.woff2') format('woff2'),
+       url('../fonts/Sora-Medium.woff') format('woff'),
+       url('../fonts/Sora-Medium.ttf') format('truetype');
+       font-weight: 500;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Sora-ExtraBold';
+  src: url('../fonts/Sora-ExtraBold.woff2') format('woff2'),
+       url('../fonts/Sora-ExtraBold.woff') format('woff'),
+       url('../fonts/Sora-ExtraBold.ttf') format('truetype');
+       font-weight: 800;
+       font-display: swap;
+       font-style: normal;
+}
+
+/* Variaveis
+--------------------------------------*/
+
+:root {
+  --base-font: 'Sora-Medium';
+  --base-font-strong: 'Sora-ExtraBold';
+  --base-font-size: 1rem;
+  --cor-verde: #5AE9C8;
+  --cor-rosa: #CC36C1;
+  --cor-roxo: #483197;
+  --cor-creme: #FFFAF2;
+}
+
+/* Geral
+--------------------------------------*/
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--base-font);
+  font-size: var(--base-font-size);
+  background-color: var(--cor-creme);
+  color: var(--cor-roxo);
+}
+
+
+/* Cabecalho
+--------------------------------------*/
+
+
+
