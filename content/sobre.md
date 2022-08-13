@@ -3,13 +3,7 @@ title: "Sobre"
 draft: false
 ---
 
-<section class="video">
-  <div class="video-container">
-    <iframe  src="https://www.youtube.com/embed/Pz5MQ8DTvKI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
-  <br>
-  <br>
-</section>
+{{< youtube Pz5MQ8DTvKI >}}
 
 O Processing Community Day Brasil 2021 é um evento que reúne comunidades interessadas em criatividade computacional a partir da plataforma Processing, uma tecnologia democratizadora, aberta e acessível que viabiliza a expressão artístico-multimidiática a quaisquer pessoas. Idealizado pela Processing Foundation, o evento Processing Community Day (PCD) ocorre em diversas cidades do mundo onde existem comunidades de artistas e entusiastas organizadas em torno da plataforma.
 

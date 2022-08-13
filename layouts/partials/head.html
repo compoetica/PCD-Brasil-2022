@@ -6,4 +6,7 @@
   {{ $style := resources.Get "css/main.css" }}
   {{ $style = $style | fingerprint }}
   <link rel="stylesheet" href="{{ $style.Permalink }}">
+  {{ $javascript := resources.Get "js/main.js" }}
+  {{ $javascript = $javascript | fingerprint }}
+  <script defer src="{{ $javascript.Permalink }}"></script>
 </head>
