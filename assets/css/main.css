@@ -129,6 +129,10 @@ strong, b {
   font-family: var(--base-font-strong);
 }
 
+canvas {
+  display: block;
+}
+
 /* Leiaute geral
 --------------------------------------*/
 
@@ -334,6 +338,7 @@ body, html, .pagina {
 
 .canvas-container {
   min-height: 400px;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 60rem) {
