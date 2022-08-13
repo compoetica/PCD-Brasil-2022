@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Início on Processing Community Day Brasil 2022</title>
-    <link>http://example.org/</link>
+    <link>https://processing-brasil.github.io/PCD-Brasil-2022-Site/</link>
     <description>Recent content in Início on Processing Community Day Brasil 2022</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Tue, 22 Dec 2020 10:31:37 -0300</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Dec 2020 10:31:37 -0300</lastBuildDate><atom:link href="https://processing-brasil.github.io/PCD-Brasil-2022-Site/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Comunidade</title>
-      <link>http://example.org/comunidade/</link>
+      <link>https://processing-brasil.github.io/PCD-Brasil-2022-Site/comunidade/</link>
       <pubDate>Tue, 22 Dec 2020 10:31:37 -0300</pubDate>
       
-      <guid>http://example.org/comunidade/</guid>
+      <guid>https://processing-brasil.github.io/PCD-Brasil-2022-Site/comunidade/</guid>
       <description>Onde está a comunidade brasileira de programação criativa e artes computacionais? Estamos em vários locais diferentes e você pode fazer parte em qualquer um deles. Todos são espaços horizontais de troca e aprendizados:
 Encontros Digitais https://encontrosdigitais.com.br
 Telegram https://t.me/programacaocriativa
@@ -22,20 +22,20 @@ Noites de Processing https://garoa.net.br/wiki/Noite_de_Processing</description>
     
     <item>
       <title>Código de Conduta</title>
-      <link>http://example.org/codigo-conduta/</link>
+      <link>https://processing-brasil.github.io/PCD-Brasil-2022-Site/codigo-conduta/</link>
       <pubDate>Tue, 22 Dec 2020 10:31:37 -0300</pubDate>
       
-      <guid>http://example.org/codigo-conduta/</guid>
+      <guid>https://processing-brasil.github.io/PCD-Brasil-2022-Site/codigo-conduta/</guid>
       <description>Participantes do Processing Community Day (PCD), incluindo organizadores, ouvintes, palestrantes, artistas, ministrantes de workshop, alunos, moderadores, apoiadores, patrocinadores e voluntários, devem concordar com o seguinte Código de Conduta.
 O time PCD Brasil é dedicado a promover experiências livres de assédio, independente de gênero, identidade e expressão de gênero, orientação sexual, deficiência, desvantagem mental, aparência física, corpo, idade, raça, etnia, nacionalidade, idioma ou religião. Nós não toleramos assédio de participantes em qualquer forma.</description>
     </item>
     
     <item>
       <title>Sobre</title>
-      <link>http://example.org/sobre/</link>
+      <link>https://processing-brasil.github.io/PCD-Brasil-2022-Site/sobre/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/sobre/</guid>
+      <guid>https://processing-brasil.github.io/PCD-Brasil-2022-Site/sobre/</guid>
       <description>O Processing Community Day Brasil 2021 é um evento que reúne comunidades interessadas em criatividade computacional a partir da plataforma Processing, uma tecnologia democratizadora, aberta e acessível que viabiliza a expressão artístico-multimidiática a quaisquer pessoas. Idealizado pela Processing Foundation, o evento Processing Community Day (PCD) ocorre em diversas cidades do mundo onde existem comunidades de artistas e entusiastas organizadas em torno da plataforma.
 Neste ano, ainda em contexto de pandemia e isolamento social, comunidades de diversas cidades brasileiras se reuniram para organizar um PCD nacional e online, com o intuito de integrar e descentralizar a comunidade de artistas e criativos de tecnologia, e ao mesmo tempo ser um farol para a produção brasileira através da plataforma, sobretudo entre semelhanças e diferenças presentes na diversidade criativa.</description>
     </item>
