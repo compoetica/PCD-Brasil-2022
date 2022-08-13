@@ -1,8 +1,10 @@
 ---
-title: Onde está a comunidade brasileira de programação criativa e artes computacionais?
+title: Comunidade
 date: 2020-12-22T10:31:37-03:00
 draft: false
 ---
+
+## Onde está a comunidade brasileira de programação criativa e artes computacionais?
 
 Estamos em vários locais diferentes e você pode fazer parte em qualquer um deles. Todos são espaços horizontais de troca e aprendizados:
 
