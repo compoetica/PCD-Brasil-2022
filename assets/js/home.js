@@ -1,14 +1,32 @@
+p5.disableFriendlyErrors = true; // disables FES
+
 let cor_shape;
 let grade_A;
 let grade_B;
+let velocidade;
+let celula_qtd;
+let fRate;
+
 
 function setup() {
   let cvn = createCanvas(windowWidth, windowHeight);
-  cvn.parent("canvas-container")
+  cvn.parent("canvas-container");
+
+  if (navigator.userAgent.indexOf("Firefox") != -1 ) {
+    velocidade = 20;
+    celula_qtd = 8;
+    fRate = 10;
+  } else {
+    velocidade = 120;
+    celula_qtd = 16;
+    fRate = 24;
+  }
+
+  frameRate(fRate);
   grade_A = [];
   grade_B = [];
-  grade_iniciliza(grade_A, 8);
-  grade_iniciliza(grade_B, 4);
+  grade_iniciliza(grade_A, celula_qtd);
+  grade_iniciliza(grade_B, celula_qtd/2);
 }
 
 function draw() {
@@ -42,12 +60,13 @@ function grade_iniciliza(grade_a, qtd) {
 }
 
 function grade_desenha(grade_a) {
-
+  // let d = dist(c.bounds.x, c.bounds.y, mouseX, mouseY);
+  let tempoAnima = map(Math.sin((frameCount)/velocidade), -1, 1, 0, 1);
+  let balizador = Math.max(width, height) * 2;
   grade_a.forEach(c => {
-    let d = dist(c.bounds.x, c.bounds.y, mouseX, mouseY);
-    let tempoAnima = map(sin((frameCount + d)/60), -1, 1, 0, 1);
+    d = dist(c.bounds.x, c.bounds.y, mouseX, mouseY);
     push();
-    c.atualiza(tempoAnima);
+    c.atualiza(tempoAnima * (d/balizador));
     c.desenha();
     pop();
   });
