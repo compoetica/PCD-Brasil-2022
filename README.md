@@ -10,16 +10,10 @@ Para colaborar na edição do site é necessário alguns conhecimentos sobre Git
 
 1. Instale o HUGO em sua máquina. Você pode obter instruções de como isso nesse link: [Quick Start | Hugo](https://gohugo.io/getting-started/quick-start/)
 
-2. Para rodar o site localmente utilize o comando: 
-> hugo server
+2. Para rodar o site localmente utilize o comando:
+
+`hugo server`
 
 3. O GitHub Pages está usando a pasta /docs para publicar o site, então para suas alterações ficarem públicas é necessário fazer um build do site. Para isso utilize o comando:
-> hugo
 
-
-
-
-
-
-
-
+`hugo`
