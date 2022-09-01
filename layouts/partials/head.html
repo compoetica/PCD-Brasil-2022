@@ -12,14 +12,4 @@
   {{ $javascript = $javascript | fingerprint }}
   <script defer src="{{ $javascript.Permalink }}"></script>
 
-  {{ if .IsHome }}
-  
-  <script src="https://cdn.jsdelivr.net/npm/p5@1.4.2/lib/p5.js"></script>
-  <script defer src="{{ .Site.BaseURL }}/js/celulas.js"></script>
-  
-  {{ $home_js := resources.Get "js/home.js" }}
-  {{ $home_js = $home_js | fingerprint }}
-  <script defer src="{{ $home_js.Permalink }}"></script>
-  
-  {{ end }}
 </head>

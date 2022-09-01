@@ -284,6 +284,7 @@ body, html, .pagina {
 
 .menu ul li .botao-simples {
   color: var(--cor-roxo);
+  line-height: 1.5em;
 }
 
 @media screen and (min-width: 60rem) {
@@ -354,6 +355,24 @@ body, html, .pagina {
     top: 0;
   }
 }
+
+#background-video {
+  display: block;
+  width: 100vw;
+}
+
+@media screen and (min-width: 60rem) {
+  #background-video {
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+}
+
 
 /* Paginas
 --------------------------------------*/
