@@ -377,32 +377,9 @@ body, html, .pagina {
 /* Paginas
 --------------------------------------*/
 
-@media screen and (min-width: 60rem) {
-  .conteudo-inner {
-    padding-left: var(--base-espaco-g);
-    position: relative;
-  }
-
-  .conteudo-inner > *:nth-child(2) {
-    margin-top: 0;
-  }
-
-  header {
-    position: absolute;
-    top: 0;
-    left: 2rem;
-    transform-origin: top left;
-    transform: rotate(90deg);
-  }
+.pagina header {
+  margin-bottom: var(--base-espaco-m);
 }
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  header {
-    position: static;
-    transform: none;
-  }
-}
-
 
 
 /* Rodapé
