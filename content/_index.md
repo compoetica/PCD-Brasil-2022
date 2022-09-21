@@ -8,9 +8,4 @@ O Processing Community Day é um evento realizado no mundo todo com o objetivo d
 
 **A edição de 2022 aconterá em novembro.**
 
-# Chamada Aberta
-
-Envie propostas de atividades e palestras para o evento ou trabalhos para a galeria.
-
-{{< botao Participar "https://forms.gle/mzs57oBmxoYPGtab7" >}}
 
