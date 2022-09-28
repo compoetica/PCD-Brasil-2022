@@ -15,7 +15,7 @@ O PCD2022 Brasil ocorrerá em novembro, e contará com workshops para iniciantes
 
 ### Outras edições do PCD no Brasil
 
-- [PCD Brasil 2021](#)
+- [PCD Brasil 2021](https://pcd2021.encontrosdigitais.com.br/)
 - [PCD Rio de Janeiro 2020](<https://www.openprocessing.org/class/63704>)
 - [PCD São Paulo 2020](<https://arteprog.space/PCD-SP-20/>)
 - [PCD Rio de Janeiro 2019](<http://life.dad.puc-rio.br/pcd2019/>)
