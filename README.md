@@ -17,3 +17,9 @@ Para colaborar na edição do site é necessário alguns conhecimentos sobre Git
 3. O GitHub Pages está usando a pasta /docs para publicar o site, então para suas alterações ficarem públicas é necessário fazer um build do site. Para isso utilize o comando:
 
 `hugo`
+
+# Importante
+
+1. Nunca faça alterações nos arquivos dentro da pasta `doc`, pois esse conteúdo é gerado automaticamente pelo Hugo.
+
+2. A maior parte do conteúdo está dentro das pastas content ou data.
