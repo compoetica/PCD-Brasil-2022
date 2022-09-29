@@ -1,0 +1,28 @@
+{{ $dia_do_evento := .Get "dia" }}
+
+-
+{{ $dia_do_evento }}
+
+<br>
+<br>
+<br>
+<br>
+{{ range $.Site.Data.programacaoTeste }}
+
+  
+
+    {{.diaEvento}}<br>
+    {{.data}}<br>
+    {{.horario}}<br>
+    {{.duracao}}<br>
+    {{.tipo}}<br>
+    {{.titulo}}<br>
+    {{.proponente}}<br>
+    {{.descricao}}<br>
+    {{.publico}}<br>
+    {{.vagas}}<br>
+    {{.requisitos}}<br>
+
+ 
+
+{{ end }}
