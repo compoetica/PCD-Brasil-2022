@@ -9,7 +9,7 @@
 <br>
 {{ range $.Site.Data.programacaoTeste }}
 
-  
+    {{ if eq $dia_do_evento .diaEvento }}
 
     {{.diaEvento}}<br>
     {{.data}}<br>
@@ -18,11 +18,12 @@
     {{.tipo}}<br>
     {{.titulo}}<br>
     {{.proponente}}<br>
-    {{.descricao}}<br>
+    
+    {{ replace .descricao "\n" "<br/>" | safeHTML }}<br>
     {{.publico}}<br>
     {{.vagas}}<br>
     {{.requisitos}}<br>
 
- 
+    {{ end }}
 
 {{ end }}
