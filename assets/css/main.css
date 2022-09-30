@@ -377,7 +377,7 @@ body, html, .pagina {
 /* Paginas
 --------------------------------------*/
 
-.pagina header {
+.pagina .pagina-header {
   margin-bottom: var(--base-espaco-m);
 }
 
@@ -389,4 +389,121 @@ body, html, .pagina {
   padding-top: var(--base-espaco-p);
   margin-top: var(--base-espaco-g);
   border-top: 4px solid var(--cor-rosa);
+}
+
+
+/* Programação
+--------------------------------------*/
+
+.programacao-dia {
+  margin: var(--base-espaco-g) 0;
+}
+
+.programacao-data h2 {
+  font-size: var(--base-font-size-g);
+}
+
+.programacao-card {
+  margin: var(--base-espaco-m) 0;
+}
+
+.programacao-card-header {
+  margin-top: 0;
+  margin-bottom: var(--base-espaco-p);
+}
+
+.programacao-card-header .programacao-card-tipo {
+  margin: 0 0 0.2em 0;
+  text-transform: uppercase;
+  font-weight: normal;
+  padding: 0.25em 0.5em;
+  display: inline-block;
+  background-color: var(--cor-roxo);
+  color: var(--cor-creme);
+}
+
+.programacao-card-header .programacao-card-title {
+  margin: 0 0 0.2em  0;
+  line-height: 1em;
+  font-size: var(--base-font-size-g);
+}
+
+.programacao-card-header .programacao-card-pessoa {
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+.programacao-card-horario {
+  text-transform: uppercase;
+}
+
+.programacao-card-orientacao {
+  margin-bottom: var(--base-espaco-p);
+}
+
+.orientacao-item {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+.orientacao-item > * {
+  width: calc(100% - 12ch);
+  margin: 0;
+}
+
+.orientacao-item h4 {
+  width: 12ch;
+  padding-right: 0.5rem;
+  margin-top: 0;
+  font-weight: normal;
+}
+
+.programacao-card-description {
+  margin-bottom: var(--base-espaco-p);
+}
+
+.programacao-card .cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 1em;
+}
+
+.programacao-card .cta > * {
+  margin: 0;
+}
+
+.programacao-card hr {
+  border: none;
+  border-top: 4px solid var(--cor-rosa);
+}
+
+@media screen and (min-width: 60rem) {
+  .programacao-dia {
+    display: flex;
+  }
+
+  .programacao-data {
+    align-self: flex-start;
+    position: sticky;
+    top: 0;
+    width: 12rem;
+  }
+
+  .programacao-data h2 {
+    margin-top: 0;
+  }
+
+  .programacao-data span {
+    display: block;
+  }
+
+  .programacao-itens {
+    width: calc(100% - 12rem);
+  }
+
+  .programacao-card:first-child {
+    margin-top: 0;
+  }
 }
