@@ -125,6 +125,18 @@ li {
   font-family: var(--base-font-strong);
 }
 
+.botao {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: var(--cor-verde);
+  color: var(--cor-roxo);
+  font-size: var(--base-font-size-p);
+  font-family: var(--base-font-strong);
+  padding: 0.5em 1em;
+  margin-bottom: var(--base-espaco-p);
+}
+
 strong, b {
   font-family: var(--base-font-strong);
 }
@@ -424,7 +436,7 @@ body, html, .pagina {
 
 .programacao-card-header .programacao-card-title {
   margin: 0 0 0.2em  0;
-  line-height: 1em;
+  line-height: 1.2em;
   font-size: var(--base-font-size-g);
 }
 
@@ -463,17 +475,6 @@ body, html, .pagina {
   margin-bottom: var(--base-espaco-p);
 }
 
-.programacao-card .cta {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  line-height: 1em;
-}
-
-.programacao-card .cta > * {
-  margin: 0;
-}
-
 .programacao-card hr {
   border: none;
   border-top: 4px solid var(--cor-rosa);
@@ -506,4 +507,12 @@ body, html, .pagina {
   .programacao-card:first-child {
     margin-top: 0;
   }
+
+  .programacao-card .cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1em;
+  }
+
 }

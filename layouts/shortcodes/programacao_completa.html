@@ -63,15 +63,15 @@
             <div class="cta">
                 
                 {{ if eq .eventoAtivo "sim" }}     
-                    <a href="{{ .urlCalendar }}" class="botao-simples" target="blank">Adicionar ao calendário</a>
+                    <a href="{{ .urlCalendar }}" class="botao" target="blank">Adicionar ao calendário</a>
                     
                     {{ if .urlTransmissao }}
-                        <a href="{{ .urlTransmissao }}" class="botao-simples" target="blank">Assista no youtube</a>   
+                        <a href="{{ .urlTransmissao }}" class="botao" target="blank">Assista no youtube</a>   
                     {{ else if .urlZoom }}
-                        <a href="{{ .urlZoom }}" class="botao-simples" target="blank">Participar no Zoom</a>      
+                        <a href="{{ .urlZoom }}" class="botao" target="blank">Participar no Zoom</a>      
                     {{ else }}
                         {{ if .urlInscricao }}
-                            <a href="{{ .urlInscricao }}" class="botao-simples" target="blank">Inscrição</a>
+                            <a href="{{ .urlInscricao }}" class="botao" target="blank">Inscrição</a>
                             <!-- <a href="" class="button button-small inactive-button">Inscrições<br> em breve</a>        -->
                         {{ end }}
                     {{ end }}
