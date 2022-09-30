@@ -3,14 +3,10 @@ title: "Programação"
 draft: false
 ---
 
+A programação foi elaborada com o Horário de Brasília (UTC-03:00).
 
-Aviso
+{{< programacao_completa dia="1" data="Sexta — 11/11" >}}
 
-Sexta 
-{{< programacao_completa dia="1" >}}
+{{< programacao_completa dia="2" data="Sábado — 12/11" >}}
 
-Sábado 
-{{< programacao_completa dia="2" >}}
-
-Domingo 
-{{< programacao_completa dia="3" >}}
+{{< programacao_completa dia="3" data="Domingo — 13/11" >}}

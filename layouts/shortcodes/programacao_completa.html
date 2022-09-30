@@ -1,29 +1,90 @@
-{{ $dia_do_evento := .Get "dia" }}
+{{ $parametro_dia := .Get "dia" }}
+{{ $parametro_data := .Get "data" }}
 
--
-{{ $dia_do_evento }}
+<div class="programacao-dia">
+    <div class="programacao-data">
+        <h2>{{ $parametro_data }}</h2>
+    </div>
 
-<br>
-<br>
-<br>
-<br>
-{{ range $.Site.Data.programacaoTeste }}
+    <div class="programacao-itens">
+    {{ range $.Site.Data.programacaoTeste }}
 
-    {{ if eq $dia_do_evento .diaEvento }}
+        {{ if eq $parametro_dia .diaEvento }}
 
-    {{.diaEvento}}<br>
-    {{.data}}<br>
-    {{.horario}}<br>
-    {{.duracao}}<br>
-    {{.tipo}}<br>
-    {{.titulo}}<br>
-    {{.proponente}}<br>
-    
-    {{ replace .descricao "\n" "<br/>" | safeHTML }}<br>
-    {{.publico}}<br>
-    {{.vagas}}<br>
-    {{.requisitos}}<br>
+        <div class="programacao-card">
+
+            <header class="programacao-card-header">
+            <div class="programacao-card-infos">
+                <h5 class="programacao-card-tipo">{{ .tipo }}</h5>
+                <h4 class="programacao-card-title"><span>{{ .titulo }}</span></h4>
+                <div class="programacao-card-pessoa">{{ .proponente }}</div>
+            </div>             
+            </header>
+
+            <div class="programacao-card-orientacao">
+                {{ if eq $parametro_dia "8" }}
+                <div class="orientacao-item">
+                <h4>Data:</h4>
+                <p>{{ .data }}</p>
+                </div>
+                {{ end }}
+                <div class="orientacao-item">
+                <h4>Horário:</h4>
+                <p>{{ .horario }}</p>
+                </div>
+                <div class="orientacao-item">
+                <h4>Duração:</h4>
+                <p>{{ .duracao }}</p>
+                </div>
+                <div class="orientacao-item">
+                <h4>Indicação:</h4>
+                <p>{{ .publico }}</p>
+                </div>
+            </div>
+
+            <div class="infoextra">
+                <div class="programacao-card-description">
+                    {{ replace .descricao "\n" "<br/>" | safeHTML }}
+                </div>
+        
+                <div class="programacao-card-orientacao">
+                    <div class="orientacao-item">
+                        {{  if .requisitos }}
+                        <h4>Requisitos:</h4>
+                        <div>
+                            {{ replace .requisitos "\n" "<br/>" | safeHTML }}
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+
+            <div class="cta">
+                <a class="plus-button"></a>
+                {{ if eq .eventoAtivo "sim" }}     
+                    <a href="{{ .urlCalendar }}" class="secondary-button" target="blank">Adicionar ao calendário</a>
+                    
+                    {{ if .urlTransmissao }}
+                        <a href="{{ .urlTransmissao }}" class="button button-small" target="blank">Assista no youtube</a>   
+                    {{ else if .urlZoom }}
+                        <a href="{{ .urlZoom }}" class="button button-small" target="blank">Participar no Zoom</a>      
+                    {{ else }}
+                        {{ if .urlInscricao }}
+                            <!-- <a href="{{ .urlInscricao }}" class="button button-small" target="blank">Inscrição</a> -->
+                            <a href="" class="button button-small inactive-button">Inscrições<br> em breve</a>       
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+            </div>
+
+
+        </div>
+
+        <hr>
+
+        {{ end }}
 
     {{ end }}
+</div>
+</div>
 
-{{ end }}
