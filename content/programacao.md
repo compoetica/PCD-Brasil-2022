@@ -3,7 +3,7 @@ title: "Programação"
 draft: false
 ---
 
-**Todos os eventos acontecerão no Google Meet e os links serão disponíbilizados aqui no site.**
+**Todos os eventos acontecerão no Google Meet e os links serão disponibilizados aqui no site.**
 
 A programação foi elaborada com o Horário de Brasília (UTC-03:00). 
 
