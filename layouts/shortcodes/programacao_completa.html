@@ -1,0 +1,78 @@
+{{ $parametro_dia := .Get "dia" }}
+{{ $parametro_data := .Get "data" }}
+{{ $parametro_semana := .Get "semana" }}
+
+<div class="programacao-dia">
+    <div class="programacao-data">
+        <h2>{{ $parametro_data }} <span>—</span> {{ $parametro_semana }}</h2>
+    </div>
+
+    <div class="programacao-itens">
+    {{ range $.Site.Data.programacaoCompleta }}
+
+        {{ if eq $parametro_dia .dia_evento }}
+
+        <div class="programacao-card">
+
+            <header class="programacao-card-header">
+            <div class="programacao-card-infos">
+                <h5 class="programacao-card-tipo">{{ .tipo }}</h5>
+                <h4 class="programacao-card-title"><span>{{ .titulo }}</span></h4>
+                <div class="programacao-card-pessoa">{{ .proponente }}</div>
+            </div>             
+            </header>
+
+            <div class="programacao-card-orientacao">
+                
+                <div class="orientacao-item orientacao-item-data">
+                <h4>Data:</h4>
+                <p>{{ replace .data "\n" ", " | safeHTML }}</p>
+                </div>
+                
+                <div class="orientacao-item">
+                <h4>Horário:</h4>
+                <p>{{ .horario }}</p>
+                </div>
+                <div class="orientacao-item">
+                <h4>Duração:</h4>
+                <p>{{ .duracao }}</p>
+                </div>
+            </div>
+
+            <div class="infoextra">
+                <div class="programacao-card-description">
+                    {{ replace .descricao "\n" "<br/>" | safeHTML }}
+                </div>
+        
+                <div class="programacao-card-orientacao">
+                    <div class="orientacao-item">
+                        {{  if .requisitos }}
+                        <h4>Requisitos:</h4>
+                        <div>
+                            {{ replace .requisitos "\n" "<br/>" | safeHTML }}
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+
+            <div class="cta">
+                
+                {{ if eq .evento_ativo "sim" }}
+                    
+                        <a href="{{ .url_video_conferencia }}" class="botao" target="blank">Participar no Google Meet</a>
+                    
+                {{ end }}
+            </div>
+
+            
+        </div>
+
+        
+
+        {{ end }}
+
+    {{ end }}
+    </div>
+</div>
+
