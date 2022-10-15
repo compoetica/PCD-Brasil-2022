@@ -78,7 +78,7 @@ body {
 }
 
 a, a:visited {
-  color: var(--cor-verde);
+  color: var(--cor-rosa);
 }
 
 a:hover, a:focus {
@@ -88,7 +88,7 @@ a:hover, a:focus {
 
 h1, h2, h3, h4 {
   margin: var(--base-espaco-p) 0;
-  color: var(--cor-rosa);
+  color: var(--cor-verde);
 }
 
 h1, .txt-g {
@@ -130,7 +130,7 @@ li {
   text-decoration: none;
   text-transform: uppercase;
   background-color: var(--cor-verde);
-  color: var(--cor-roxo);
+  color: var(--cor-roxo) !important;
   font-size: var(--base-font-size-p);
   font-family: var(--base-font-strong);
   padding: 0.5em 1em;
@@ -208,6 +208,10 @@ body, html, .pagina {
   position: relative;
 }
 
+.cabecalho h1 {
+  color: var(--cor-rosa);
+}
+
 .assinatura-normal {
   display: none;
 }
@@ -270,6 +274,7 @@ body, html, .pagina {
   transform: translateX(-100%);
   padding: var(--base-espaco-m);
   transition: transform .2s ease-in-out;
+  z-index: 1;
 }
 
 .menu-aberto .cabecalho-conteudo {
@@ -412,16 +417,25 @@ body, html, .pagina {
 }
 
 .programacao-data h2 {
-  font-size: var(--base-font-size-g);
+  font-size: 2rem;
+  color: var(--cor-rosa);
+}
+
+.programacao-data span {
+  color: var(--cor-rosa);
 }
 
 .programacao-card {
-  margin: var(--base-espaco-m) 0;
+  margin: var(--base-espaco-g) 0;
+  
 }
 
 .programacao-card-header {
   margin-top: 0;
   margin-bottom: var(--base-espaco-p);
+  padding: var(--base-espaco-p) 0;
+  border-top: 4px solid;
+  border-bottom: 4px solid;
 }
 
 .programacao-card-header .programacao-card-tipo {
@@ -430,7 +444,7 @@ body, html, .pagina {
   font-weight: normal;
   padding: 0.25em 0.5em;
   display: inline-block;
-  background-color: var(--cor-roxo);
+  background-color: var(--cor-rosa);
   color: var(--cor-creme);
 }
 
@@ -438,11 +452,15 @@ body, html, .pagina {
   margin: 0 0 0.2em  0;
   line-height: 1.2em;
   font-size: var(--base-font-size-g);
+  font-family: var(--base-font-strong);
+  color: var(--cor-verde);
 }
 
 .programacao-card-header .programacao-card-pessoa {
   margin-top: 0;
   text-transform: uppercase;
+  font-family: var(--base-font-strong);
+  color: var(--cor-rosa);
 }
 
 .programacao-card-horario {
@@ -451,6 +469,11 @@ body, html, .pagina {
 
 .programacao-card-orientacao {
   margin-bottom: var(--base-espaco-p);
+}
+
+.programacao-card-orientacao h4 {
+  color: var(--cor-roxo);
+  font-family: var(--base-font-strong);
 }
 
 .orientacao-item {
@@ -498,6 +521,7 @@ body, html, .pagina {
 
   .programacao-data span {
     display: block;
+
   }
 
   .programacao-itens {
@@ -513,6 +537,10 @@ body, html, .pagina {
     justify-content: space-between;
     align-items: center;
     line-height: 1em;
+  }
+
+  .programacao-card-orientacao .orientacao-item.orientacao-item-data {
+    display: none;
   }
 
 }

@@ -8,9 +8,9 @@
     </div>
 
     <div class="programacao-itens">
-    {{ range $.Site.Data.programacaoTeste }}
+    {{ range $.Site.Data.programacaoCompleta }}
 
-        {{ if eq $parametro_dia .diaEvento }}
+        {{ if eq $parametro_dia .dia_evento }}
 
         <div class="programacao-card">
 
@@ -23,12 +23,12 @@
             </header>
 
             <div class="programacao-card-orientacao">
-                {{ if eq $parametro_dia "8" }}
-                <div class="orientacao-item">
+                
+                <div class="orientacao-item orientacao-item-data">
                 <h4>Data:</h4>
-                <p>{{ .data }}</p>
+                <p>{{ replace .data "\n" ", " | safeHTML }}</p>
                 </div>
-                {{ end }}
+                
                 <div class="orientacao-item">
                 <h4>Horário:</h4>
                 <p>{{ .horario }}</p>
@@ -36,10 +36,6 @@
                 <div class="orientacao-item">
                 <h4>Duração:</h4>
                 <p>{{ .duracao }}</p>
-                </div>
-                <div class="orientacao-item">
-                <h4>Indicação:</h4>
-                <p>{{ .publico }}</p>
                 </div>
             </div>
 
@@ -62,23 +58,14 @@
 
             <div class="cta">
                 
-                {{ if eq .eventoAtivo "sim" }}     
-                    <a href="{{ .urlCalendar }}" class="botao" target="blank">Adicionar ao calendário</a>
+                {{ if eq .evento_ativo "sim" }}
                     
-                    {{ if .urlTransmissao }}
-                        <a href="{{ .urlTransmissao }}" class="botao" target="blank">Assista no youtube</a>   
-                    {{ else if .urlZoom }}
-                        <a href="{{ .urlZoom }}" class="botao" target="blank">Participar no Zoom</a>      
-                    {{ else }}
-                        {{ if .urlInscricao }}
-                            <a href="{{ .urlInscricao }}" class="botao" target="blank">Inscrição</a>
-                            <!-- <a href="" class="button button-small inactive-button">Inscrições<br> em breve</a>        -->
-                        {{ end }}
-                    {{ end }}
+                        <a href="{{ .url_video_conferencia }}" class="botao" target="blank">Participar no Google Meet</a>
+                    
                 {{ end }}
             </div>
 
-            <hr>
+            
         </div>
 
         
