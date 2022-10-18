@@ -463,6 +463,13 @@ body, html, .pagina {
   color: var(--cor-rosa);
 }
 
+.programacao-card-thumb img {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  margin-bottom: var(--base-espaco-p);
+}
+
 .programacao-card-horario {
   text-transform: uppercase;
 }
