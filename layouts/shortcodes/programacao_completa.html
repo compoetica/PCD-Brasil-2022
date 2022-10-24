@@ -21,7 +21,7 @@
                 <div class="programacao-card-infos">
                     <h5 class="programacao-card-tipo">{{ .tipo }}</h5>
                     <h4 class="programacao-card-title"><span>{{ .titulo }}</span></h4>
-                    <div class="programacao-card-pessoa">{{ .proponente }}</div>
+                    <div class="programacao-card-pessoa">{{ .proponente | safeHTML }}</div>
                 </div>        
             </header>
 
