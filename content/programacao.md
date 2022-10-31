@@ -8,7 +8,7 @@ description: "Confira a programação completa do Processing Community Day 2022 
 
 A programação foi elaborada com o Horário de Brasília (UTC-03:00). 
 
-Caso queira ter esses eventos e outros organizados pela comunidade Processing Brasil em seu calendário clique aqui.
+Caso queira ter esses eventos e outros organizados pela comunidade Processing Brasil em seu calendário [clique aqui](#agenda).
 
 {{< programacao_completa dia="1" data="11/11" semana="Sexta" >}}
 
@@ -17,3 +17,18 @@ Caso queira ter esses eventos e outros organizados pela comunidade Processing Br
 {{< programacao_completa dia="3" data="13/11" semana="Domingo" >}}
 
 {{< programacao_completa dia="4" data="12 a 13/11" semana="Sábado e Domingo" >}}
+
+## Agenda
+
+Para adicionar esse e outros eventos da comunidade Processing Brasil em seu calendário é necessário importar a nossa agenda para o seu serviço de calendário. 
+
+Copie o endereço baixo no seu serviço de calendário:
+
+https://calendar.google.com/calendar/ical/a426ab12344308728ab35e9a30d9c3ccff94cd3ef16a80245602c528586d8bc6%40group.calendar.google.com/public/basic.ics
+
+Caso não saiba onde utilizar esse link listamos abaixo o passo a passo para alguns serviços:
+
+- [Google](https://support.google.com/calendar/answer/37118?hl=pt&co=GENIE.Platform%3DDesktop) (Siga a partir do passo 2)
+- [Outlook](https://support.microsoft.com/pt-br/office/importar-ou-assinar-um-calend%C3%A1rio-no-outlook-com-cff1429c-5af6-41ec-a5b4-74f2c278e98c)
+- [Thunderbird](https://www.hostmidia.com.br/tutoriais/como-sincronizar-o-calendario-no-thunderbird/)
+- [Mac OS](https://support.apple.com/pt-pt/guide/calendar/icl1023/mac)
