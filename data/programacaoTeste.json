@@ -16,7 +16,7 @@
     "urlCalendar": "#",
     "urlInscricao": "#",
     "urlTransmissao": "#",
-    "eventoAtivo": "sim"
+    "eventoAtivo": "não"
   },
   {
     "diaEvento": "1",
@@ -35,7 +35,7 @@
     "urlCalendar": "#",
     "urlInscricao": "#",
     "urlTransmissao": "#",
-    "eventoAtivo": "sim"
+    "eventoAtivo": "não"
   },
   {
     "diaEvento": "1",
@@ -54,7 +54,7 @@
     "urlCalendar": "#",
     "urlInscricao": "#",
     "urlTransmissao": "#",
-    "eventoAtivo": "sim"
+    "eventoAtivo": "não"
   },
   {
     "diaEvento": "1",
@@ -73,7 +73,7 @@
     "urlCalendar": "#",
     "urlInscricao": "#",
     "urlTransmissao": "#",
-    "eventoAtivo": "sim"
+    "eventoAtivo": "não"
   },
   {
     "diaEvento": "2",
@@ -92,7 +92,7 @@
     "urlCalendar": "#",
     "urlInscricao": "#",
     "urlTransmissao": "#",
-    "eventoAtivo": "sim"
+    "eventoAtivo": "não"
   },
   {
     "diaEvento": "2",
@@ -111,7 +111,7 @@
     "urlCalendar": "#",
     "urlInscricao": "#",
     "urlTransmissao": "#",
-    "eventoAtivo": "sim"
+    "eventoAtivo": "não"
   },
   {
     "diaEvento": "2",
@@ -130,7 +130,7 @@
     "urlCalendar": "#",
     "urlInscricao": "#",
     "urlTransmissao": "#",
-    "eventoAtivo": "sim"
+    "eventoAtivo": "não"
   },
   {
     "diaEvento": "2",
@@ -149,7 +149,7 @@
     "urlCalendar": "#",
     "urlInscricao": "#",
     "urlTransmissao": "#",
-    "eventoAtivo": "sim"
+    "eventoAtivo": "não"
   },
   {
     "diaEvento": "2",
@@ -168,7 +168,7 @@
     "urlCalendar": "#",
     "urlInscricao": "#",
     "urlTransmissao": "#",
-    "eventoAtivo": "sim"
+    "eventoAtivo": "não"
   },
   {
     "diaEvento": "2",
@@ -187,7 +187,7 @@
     "urlCalendar": "#",
     "urlInscricao": "#",
     "urlTransmissao": "#",
-    "eventoAtivo": "sim"
+    "eventoAtivo": "não"
   },
   {
     "diaEvento": "2",
@@ -206,7 +206,7 @@
     "urlCalendar": "#",
     "urlInscricao": "#",
     "urlTransmissao": "#",
-    "eventoAtivo": "sim"
+    "eventoAtivo": "não"
   },
   {
     "diaEvento": "3",
@@ -225,7 +225,7 @@
     "urlCalendar": "#",
     "urlInscricao": "#",
     "urlTransmissao": "#",
-    "eventoAtivo": "sim"
+    "eventoAtivo": "não"
   },
   {
     "diaEvento": "3",
@@ -244,7 +244,7 @@
     "urlCalendar": "#",
     "urlInscricao": "#",
     "urlTransmissao": "#",
-    "eventoAtivo": "sim"
+    "eventoAtivo": "não"
   },
   {
     "diaEvento": "3",
@@ -263,7 +263,7 @@
     "urlCalendar": "#",
     "urlInscricao": "#",
     "urlTransmissao": "#",
-    "eventoAtivo": "sim"
+    "eventoAtivo": "não"
   },
   {
     "diaEvento": "3",
@@ -282,7 +282,7 @@
     "urlCalendar": "#",
     "urlInscricao": "#",
     "urlTransmissao": "#",
-    "eventoAtivo": "sim"
+    "eventoAtivo": "não"
   },
   {
     "diaEvento": "3",
@@ -301,6 +301,6 @@
     "urlCalendar": "#",
     "urlInscricao": "#",
     "urlTransmissao": "#",
-    "eventoAtivo": "sim"
+    "eventoAtivo": "não"
   }
 ]
