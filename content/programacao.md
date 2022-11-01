@@ -24,7 +24,7 @@ Para adicionar esse e outros eventos da comunidade Processing Brasil em seu cale
 
 Copie o endereço baixo no seu serviço de calendário:
 
-https://calendar.google.com/calendar/ical/a426ab12344308728ab35e9a30d9c3ccff94cd3ef16a80245602c528586d8bc6%40group.calendar.google.com/public/basic.ics
+`https://calendar.google.com/calendar/ical/processingbrasil%40gmail.com/public/basic.ics`
 
 Caso não saiba onde utilizar esse link listamos abaixo o passo a passo para alguns serviços:
 
