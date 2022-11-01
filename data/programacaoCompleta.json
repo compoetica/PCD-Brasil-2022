@@ -187,23 +187,6 @@
     "evento_ativo": "não"
   },
   {
-    "dia_evento": "3",
-    "data": "13/11/2022\ndomingo",
-    "horario": "17h",
-    "duracao": "1 hora",
-    "tipo": "Oficina",
-    "titulo": "ARTE DO TEXTO - introdução a programação criativa",
-    "proponente": "Barbara Castro",
-    "proponente_url": "https://www.instagram.com/barbaracastro/",
-    "descricao": "Esta oficina será uma introdução a programação criativa com p5.js que irá focar no uso de textos - ou strings. Vamos nos inspirar em exemplos da poesia concreta de Augusto de Campos para entender como processar e representar strings. Vamos abordar a iteração (for) e o uso de listas (arrays), além de funções específicas para processamento de variáveis de texto.",
-    "minibio": "Barbara Castro é artista, designer e pesquisadora. Doutora em Artes Visuais pela EBA/UFRJ, Barbara é professora de Design da PUC-Rio. Sua pesquisa teórico-prática em visualização artística de dados e arte computacional aborda o instinto de sobrevivência, a vitalidade e o Antropoceno. Como diretora de criação do estúdio Ambos&& já realizou curadoria de exposições e instalações interativas para instituições como Museu do Amanhã, CCBB, Museu Nacional, entre outros. Destacam-se a co-idealização da exposição e do livro Existência Numérica no Oi Futuro e a co-curadoria da exposição Data Corpus da Casa Firjan.",
-    "requisitos": "",
-    "url_imagem": "",
-    "url_calendario": "",
-    "url_video_conferencia": "",
-    "evento_ativo": "não"
-  },
-  {
     "dia_evento": "4",
     "data": "12/11 e 13/11",
     "horario": "19h",
