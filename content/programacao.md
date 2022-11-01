@@ -20,13 +20,11 @@ Caso queira ter esses eventos e outros organizados pela comunidade Processing Br
 
 ## Agenda
 
-Para adicionar esse e outros eventos da comunidade Processing Brasil em seu calendário é necessário importar a nossa agenda para o seu serviço de calendário. 
-
-Copie o endereço baixo no seu serviço de calendário:
+Para adicionar esse e outros eventos da comunidade Processing Brasil em seu calendário é necessário importar a nossa agenda para o seu serviço de calendário. Para isso copie a URL abaixo nas opções de importação do serviço ou aplicativo que você utiliza:
 
 `https://calendar.google.com/calendar/ical/processingbrasil%40gmail.com/public/basic.ics`
 
-Caso não saiba onde utilizar esse link listamos abaixo o passo a passo para alguns serviços:
+Caso não saiba onde utilizar essa URL listamos abaixo o passo a passo para alguns serviços:
 
 - [Google](https://support.google.com/calendar/answer/37118?hl=pt&co=GENIE.Platform%3DDesktop) (Siga a partir do passo 2)
 - [Outlook](https://support.microsoft.com/pt-br/office/importar-ou-assinar-um-calend%C3%A1rio-no-outlook-com-cff1429c-5af6-41ec-a5b4-74f2c278e98c)
