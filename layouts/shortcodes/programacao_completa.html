@@ -66,6 +66,14 @@
                         <a href="{{ .url_video_conferencia }}" class="botao" target="blank">Participar no Google Meet</a>
                     
                 {{ end }}
+
+                {{ if eq .inscricao_aberta  "sim" }}
+                    
+                        <a href="{{ .url_inscricao }}" class="botao" target="blank">Acessar formulário de inscrição</a>
+                    
+                {{ end }}
+
+                
             </div>
 
             

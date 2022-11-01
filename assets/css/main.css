@@ -131,7 +131,7 @@ li {
 }
 
 .botao {
-  display: inline-block;
+  display: block;
   text-decoration: none;
   text-transform: uppercase;
   background-color: var(--cor-verde);
