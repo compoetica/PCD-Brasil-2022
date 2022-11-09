@@ -15,11 +15,15 @@
         <div class="programacao-card">
 
             <header class="programacao-card-header">
+                {{  if .url_imagem }}
                 <div class="programacao-card-thumb">
                     <img src="{{ .url_imagem }}" alt="">
-                </div>  
+                </div>
+                {{ end }}
                 <div class="programacao-card-infos">
+                    {{  if .tipo }}
                     <h5 class="programacao-card-tipo">{{ .tipo }}</h5>
+                    {{ end }}
                     <h4 class="programacao-card-title"><span>{{ .titulo }}</span></h4>
                     <div class="programacao-card-pessoa">{{ .proponente | safeHTML }}</div>
                 </div>        
@@ -63,7 +67,7 @@
                 
                 {{ if eq .evento_ativo "sim" }}
                     
-                        <a href="{{ .url_video_conferencia }}" class="botao" target="blank">Participar no Google Meet</a>
+                        <a href="{{ .url_video_conferencia }}" class="botao" target="blank">Acessar link do Zoom</a>
                     
                 {{ end }}
 
