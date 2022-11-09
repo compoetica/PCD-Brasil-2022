@@ -14,6 +14,9 @@ Estamos em vários locais diferentes e você pode fazer parte em qualquer um del
 #### Telegram
 [https://t.me/programacaocriativa](https://t.me/programacaocriativa)
 
+#### Instagram
+[https://www.instagram.com/processingbrasil/](https://www.instagram.com/processingbrasil/)
+
 #### Grupo de email
 [https://groups.google.com/g/processing-brasil](https://groups.google.com/g/processing-brasil)
 
