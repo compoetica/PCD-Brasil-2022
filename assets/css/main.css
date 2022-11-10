@@ -568,3 +568,112 @@ body, html, .pagina {
   width: 100% !important;
   padding-left: var(--base-espaco-m);
 }
+
+.galeria iframe {
+  background-image: url('../images/spinner.gif');
+  background-size: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.lista-obras-wrapper {
+  display: none;
+}
+
+#lista-botao {
+  position: absolute;
+  right: 1.5rem;
+  top: 5rem;
+  font-family: var(--base-font);
+  font-size: 1.5rem;
+  padding: 0.5rem 1.2rem;
+  border: none;
+  border-radius: 2rem;
+  background-color: var(--cor-rosa);
+  border: 1px solid var(--cor-roxo);
+  color: var(--cor-creme);
+}
+
+#lista-fechar {
+  border: 0;
+  background-color: transparent;
+  display: inline;
+  cursor: pointer;
+}
+
+.lista-obra-top {
+  text-align: right;
+}
+
+.lista-obras-wrapper.aberto {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.lista-obras-container {
+  padding: 1.5rem;
+  width: 37.5rem;
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--cor-rosa);
+}
+
+.galeria-logo img {
+  max-width: 20rem;
+  margin: 0 auto;
+}
+
+.galeria-titulo {
+  text-transform: uppercase;
+  font-size: var(--base-font-size-g);
+  font-family: var(--base-font-strong);
+  line-height: 1em;
+  text-align: center;
+}
+
+.galeria-data {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: var(--base-font);
+  color: var(--cor-creme);
+  margin: 1rem;
+}
+
+.lista-obras {
+  overflow-y: scroll;
+  list-style: none;
+  display: block;
+  margin: 0;
+  padding: 0 1rem 0 0;
+  line-height: 1em;
+  color: var(--cor-creme);
+}
+
+.lista-obra {
+  display: flex;
+  border-top: 2px solid var(--cor-roxo);
+  padding: 0.5rem 0;
+  color: var(--cor-cinza);
+}
+
+.lista-obra:last-child {
+  border-bottom: 2px solid var(--cor-roxo);
+}
+
+.lista-obra div {
+  width: calc(100% / 2);
+}
+
+.lista-obra .obra-autoria {
+  text-transform: uppercase;
+}
