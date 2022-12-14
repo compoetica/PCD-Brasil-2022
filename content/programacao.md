@@ -4,7 +4,7 @@ draft: false
 description: "Confira a programação completa do Processing Community Day 2022 que acontece nos dias 11, 12 e 13 de novembro com oficinas e palestras sobre programação criativa. Tudo gratuito e online."
 ---
 
-**Todos os eventos acontecerão no [Zoom](https://zoom.us/) e os links serão disponibilizados aqui no site.**
+**Todas as atividades estão disponíveis para assistir no YouTube, basta acessar o link na atividade desejada.**
 
 A programação foi elaborada com o Horário de Brasília (UTC-03:00). 
 
