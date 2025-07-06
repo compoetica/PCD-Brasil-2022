@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Início on Processing Community Day Brasil 2022</title>
-    <link>https://pcd2022.encontrosdigitais.com.br/</link>
+    <link>https://compoetica.github.io/PCD-Brasil-2022/</link>
     <description>Recent content in Início on Processing Community Day Brasil 2022</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Tue, 22 Dec 2020 10:31:37 -0300</lastBuildDate><atom:link href="https://pcd2022.encontrosdigitais.com.br/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Dec 2020 10:31:37 -0300</lastBuildDate><atom:link href="https://compoetica.github.io/PCD-Brasil-2022/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Galeria</title>
-      <link>https://pcd2022.encontrosdigitais.com.br/galeria/</link>
+      <link>https://compoetica.github.io/PCD-Brasil-2022/galeria/</link>
       <pubDate>Mon, 24 Oct 2022 18:45:45 -0300</pubDate>
       
-      <guid>https://pcd2022.encontrosdigitais.com.br/galeria/</guid>
+      <guid>https://compoetica.github.io/PCD-Brasil-2022/galeria/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Comunidade</title>
-      <link>https://pcd2022.encontrosdigitais.com.br/comunidade/</link>
+      <link>https://compoetica.github.io/PCD-Brasil-2022/comunidade/</link>
       <pubDate>Tue, 22 Dec 2020 10:31:37 -0300</pubDate>
       
-      <guid>https://pcd2022.encontrosdigitais.com.br/comunidade/</guid>
+      <guid>https://compoetica.github.io/PCD-Brasil-2022/comunidade/</guid>
       <description>Onde está a comunidade brasileira de programação criativa e artes computacionais? Estamos em vários locais diferentes e você pode fazer parte em qualquer um deles. Todos são espaços horizontais de troca e aprendizados:
 Encontros Digitais https://encontrosdigitais.com.br
 Telegram https://t.me/programacaocriativa
@@ -32,27 +32,39 @@ Noites de Processing https://garoa.net.br/wiki/Noite_de_Processing</description>
     
     <item>
       <title>Código de Conduta</title>
-      <link>https://pcd2022.encontrosdigitais.com.br/codigo-conduta/</link>
+      <link>https://compoetica.github.io/PCD-Brasil-2022/codigo-conduta/</link>
       <pubDate>Tue, 22 Dec 2020 10:31:37 -0300</pubDate>
       
-      <guid>https://pcd2022.encontrosdigitais.com.br/codigo-conduta/</guid>
+      <guid>https://compoetica.github.io/PCD-Brasil-2022/codigo-conduta/</guid>
       <description>Participantes do Processing Community Day (PCD), incluindo organizadores, ouvintes, palestrantes, artistas, ministrantes de workshop, alunos, moderadores, apoiadores, patrocinadores e voluntários, devem concordar com o seguinte Código de Conduta.
 O time PCD Brasil é dedicado a promover experiências livres de assédio, independente de gênero, identidade e expressão de gênero, orientação sexual, deficiência, desvantagem mental, aparência física, corpo, idade, raça, etnia, nacionalidade, idioma ou religião. Nós não toleramos assédio de participantes em qualquer forma.</description>
     </item>
     
     <item>
       <title>Programação</title>
-      <link>https://pcd2022.encontrosdigitais.com.br/programacao/</link>
+      <link>https://compoetica.github.io/PCD-Brasil-2022/programacao/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pcd2022.encontrosdigitais.com.br/programacao/</guid>
+      <guid>https://compoetica.github.io/PCD-Brasil-2022/programacao/</guid>
       <description>Todas as atividades estão disponíveis para assistir no YouTube, basta acessar o link na atividade desejada.
 A programação foi elaborada com o Horário de Brasília (UTC-03:00).
 Caso queira ter esses eventos e outros organizados pela comunidade Processing Brasil em seu calendário clique aqui.
-11/11 — SextaAberturaComissão organizadora Data:11/11/2022, sexta
-Horário:18h
-Duração:30 minutos
-Abertura do evento e da galeria virtual onde falaremos sobre o que é um PCD, como nossa organização funciona e por que fazemos isso.</description>
+11/11 — Sexta
+
+Abertura
+Comissão organizadora
+ 
+Data:
+11/11/2022, sexta
+
+Horário:https://compoetica.github.io/PCD-Brasil-2022/
+18h
+
+Duração:https://compoetica.github.io/PCD-Brasil-2022/
+30 minutos
+
+
+Abertura do evento e da galeria virtual onde falaremos sobre o que é um PCD, como nossa organização funciona e por que fazemos isso.</description>
     </item>
     
     <item>

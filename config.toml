@@ -1,4 +1,4 @@
-baseURL = "https://pcd2022.encontrosdigitais.com.br/"
+baseURL = "https://compoetica.github.io/PCD-Brasil-2022/"
 languageCode = "pt-br"
 title = "Processing Community Day Brasil 2022"
 publishdir = "docs"
